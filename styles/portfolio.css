@@ -27,6 +27,16 @@
     border: none;
 }
 
+.section_title {
+    color: var(--dark1);
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 130px;
+    padding: 0 130px;
+}
+
 /* common ends here  */
 
 /* header starts here */
@@ -147,15 +157,7 @@ nav li a {
 .about_section {
     padding-bottom: 130px;
 }
-.about_section h2 {
-    color: var(--dark1);
-    text-align: center;
-    font-size: 35px;
-    font-style: normal;
-    font-weight: 700;
-    margin-top: 130px;
-    padding: 0 130px;
-}
+
 
 .about_section p {
     padding: 0 30px;
@@ -192,4 +194,91 @@ nav li a {
 /* About section ends here  */
 
 
+/* skill section starts from here  */
+.skill_Section {
+    padding-bottom: 130px;
+}
 
+.skill_Section .section_title {
+    padding-bottom: 30px;
+}
+
+.skill_Section .section_info {
+    color: var(--dark3);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.skills_all {
+    display: flex;
+}
+
+.skills_p {
+    padding: 30px;
+    margin-right: 24px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+
+
+/* skill section ends here  */
+
+
+/* resume starts here  */
+.resume_edu_experience {
+    display: flex;
+    gap: 70px;
+}
+
+.My_education .item h2 {
+    color: var(--dark2);
+    font-size: 25px;
+    font-weight: 700;
+    padding: 30px 0 10px;
+}
+
+.item_text {
+    color: var(--dark3);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.text_p {
+    color: var(--dark3);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.text_h2 {
+    color: var(--dark2);
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.text_p {
+    color: var(--dark3);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.content_p {
+    color: var(--dark3);
+    font-size: 16px;
+    font-weight: 400;
+
+
+}
+.download_cv {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* resume ends here  */
+
+/* Footer section starts here  */
+
+/* Footer ends here  */
